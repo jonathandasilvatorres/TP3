@@ -2,8 +2,7 @@ body
 {
 	padding: 0;
 	margin: 0 ;
-	background-image: url('ronds.jpg');
-	background-repeat: no-repeat;
+	background-image: url('sava.jpg');
 	background-attachment: fixed;
 	background-size: cover ;
 	background-position:center; 
@@ -18,20 +17,27 @@ body
 
 #header
 {
+
 	margin: 0;
-	padding: 20px;
+	padding: 50px;
 	background: #ccc;
-	height:50px;
-	background-image: url('haut.jpg');
+	height:130px;
+	background-image: url('url1.jpg');
 	background-repeat: no-repeat;
 	background-size: cover ;
-	background-position:center; 
+	background-position : center; 
 }
 
-#header h1 { margin: 0; }
+#header h1 { 
+
+			margin: 0; 
+			color: #000000;
+			}
+			
 
 #navigation
 {
+
 	float: left;
 	width: 100%;
 	background: #333;
@@ -39,18 +45,21 @@ body
 
 #navigation ul
 {
+
 	margin: 0;
 	padding: 0;
 }
 
 #navigation ul li
 {
+
 	list-style-type: none;
 	display: inline;
 }
 
 #navigation li a
 {
+	
 	display: block;
 	float: left;
 	padding: 5px 10px;
@@ -63,17 +72,13 @@ body
 
 #edito
 {
-	height: 400px;
+	height: 200px;
 	float: left;
 	padding: 0%;
-	margin: 1%;
-	width: 64%;
+	margin-top: 1%;
+	width: 100%;
 	background-color: #f4fcff;
 	border: 1px solid #999999;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px;
-	-webkit-box-shadow: 5px 3px 3px #0a182e;
-	box-shadow: 5px 3px 3px #0a182e;
 	opacity: 0.8;
 }
 
@@ -95,10 +100,6 @@ div.element
 	padding: 0%;
 	background-color: #f4fcff;
 	border: 1px solid #999999;
-	-webkit-border-radius: 25px 0px 25px 0px;
-	border-radius: 25px 0px;
-	-webkit-box-shadow: 5px 3px 3px #0a182e;
-	box-shadow: 5px 3px 3px #0a182e;
 	opacity: 0.8;
 }
 
@@ -136,8 +137,9 @@ h2,h3
 	font-weight: bold;
 	padding: 20px;
 	height: 1%;
-	background-image: url('bas.jpg');
+	background-image: url('poly.jpg');
 	background-repeat: no-repeat;
 	background-size: cover ;
 	background-position:center; 
+	color: #FFFFFF;
 }
